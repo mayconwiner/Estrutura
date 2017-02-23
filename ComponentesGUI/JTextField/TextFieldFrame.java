@@ -32,12 +32,15 @@ public class TextFieldFrame extends JFrame {
 		textField3 = new JTextField("campo desabilitado");
 		textField3.setEditable(false);
 		add(textField3);
+		
+		passwordField = new JPasswordField(10);
+		add (passwordField);
 
 		// handlers de evento registradores
 		TextFieldHandler handler = new TextFieldHandler();
 		textField1.addActionListener(handler);
-		textField1.addActionListener(handler);
-		textField1.addActionListener(handler);
+		textField2.addActionListener(handler);
+		textField3.addActionListener(handler);
 		passwordField.addActionListener(handler);
 
 	}
