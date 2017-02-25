@@ -8,8 +8,7 @@ import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 import javax.swing.JPasswordField;
 import javax.swing.JTextField;
-
-public class TextFieldFrame extends JFrame {
+class TextFieldFrame extends JFrame {
 
 	private JTextField textField1; // Campo de texto com tamanho configurado
 	private JTextField textField2;
