@@ -25,7 +25,7 @@ public class CheckBoxFrame extends JFrame {
 		add(textField);
 
 		negritoCheckBox = new JCheckBox("Negrito");
-		italicoCheckBox = new JCheckBox("Italico");
+		italicoCheckBox = new JCheckBox("Italico"); 
 		add(negritoCheckBox);
 		add(italicoCheckBox);
 
