@@ -22,6 +22,7 @@ public class ComboBoxFrame extends JFrame {
 		new ImageIcon(getClass().getResource(nomes[1])),
 		new ImageIcon(getClass().getResource(nomes[2])),
 		new ImageIcon(getClass().getResource(nomes[3]))};
+	
 	//construtor comboBoxFrame adiciona JComboBox ao JFrame
 	public ComboBoxFrame(){
 		super("Tetando JCombobox");
