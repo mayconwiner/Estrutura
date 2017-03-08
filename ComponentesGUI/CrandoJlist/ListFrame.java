@@ -16,6 +16,7 @@ public class ListFrame extends JFrame {
 
 	private static final String[] NomesCores = { "Black", "Blue", "Cyan", "Dark Gray", "Gray", "Green", "Light Gray",
 			"Margenta", "Orange", "Yellow", "Red", "Pink" };
+	
 	private static final Color[] cores = { Color.BLACK, Color.blue, Color.cyan, Color.DARK_GRAY, Color.gray,
 			Color.GREEN, Color.LIGHT_GRAY, Color.magenta, Color.orange, Color.yellow, Color.red, Color.PINK };
 
